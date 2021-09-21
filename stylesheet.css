@@ -1,0 +1,69 @@
+.topcontainer {
+
+  text-align: center;
+  padding-top: 30px;
+  position: relative;
+
+}
+label{
+  color: white;
+}
+
+.profilep {
+  height: 140px;
+  border-radius: 50px;
+}
+
+.aprogrammer {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.circular {
+  border-radius: 90px;
+}
+
+
+h1 {
+  color: #66BFBF;
+  line-height: 0;
+  font-size: 60px;
+  margin-top: 100px;
+  font-family: 'Sacramento', cursive;
+  /*font size set as pixels cant be reduced when user is changing his font size in web, but setting it as a percentage where 100%
+  is 16px when user changes font size it will change together with the other text.we can also use something called em where 1em is
+  equal to 16px also.IT is also better to use rem instead of em since rem is not affected by other fontsize settings*/
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+h4, h5 {
+  font-family: 'montserrat', sans-serif;
+}
+p{
+  color: #E7E0C9;
+}
+
+body {
+  margin: 0;
+  font-family: 'merriweather', serif;
+  text-align: center;
+  background-color: black;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 5px;
+  height: 1px;
+  width: 300px;
+}
